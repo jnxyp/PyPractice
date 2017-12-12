@@ -1,0 +1,67 @@
+#64 - Niederbayern
+
+owner = HRE
+controller = HRE
+add_core = HRE
+add_core = BAV
+culture = bavarian
+religion = catholic
+cot = no
+base_tax = 6
+trade_goods = grain
+manpower = 1
+fort1 = yes
+capital	= "Landshut" 
+citysize = 5000
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1254.5.22   = { owner = BAV controller = BAV add_core = BAV remove_core = HRE }
+1450.1.1  = { citysize = 6000 }
+1520.1.1  = { temple = yes } # Martinskirche - the Worlds highest brick building. 1520 the Rosebead Madonna by Hans Leinberger is added. The church itself exists already since before EU3 availability.
+#1525.1.1  = { customs_house = yes }
+1550.1.1  = { marketplace = yes }
+1585.1.1  = { constable = yes }
+1600.1.1  = { citysize = 8000 }
+1620.1.1  = { courthouse = yes }
+1634.1.1  = { citysize = 5000 } # 30 years war (Swedes) and plague kill large parts of the population
+1700.1.1  = { citysize = 9000 }
+1704.8.13 = {	owner = HAB
+		controller = HAB
+	    } # Bavaria is conquered by the Emperor, is however later restored for the balance of power
+1714.9.7  = { owner = BAV controller = BAV }
+1743.1.1  = { base_tax = 4 } # Economic crisis as effect of the Austrian succession war (e.g. Straubing bancrupt)
+1750.1.1  = { citysize = 12000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = BAV
+	     } # 德国统一
+1919.4.6 = {	owner = BAV
+		controller = BAV
+		add_core = BAV
+		add_core = GER
+	     } # 巴伐利亚革命
+1919.5.3 = {	owner = GER
+		controller = GER
+		add_core = GER
+	     } # 革命失败
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

@@ -1,0 +1,82 @@
+#1761 - Alzey
+
+owner = PAL
+controller = PAL
+add_core = PAL
+capital = "Worms"
+culture = rheinlaender
+religion = catholic
+trade_goods = wine
+base_tax = 7
+manpower = 3
+fort1 = yes
+citysize = 10000
+add_core = PAL
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1   = { citysize = 12000 }
+1495.1.1   = { courthouse = yes }
+1500.1.1   = { constable = yes } # The Reichskammergericht (1495-1806) is the highest court in the HRE situated in Worms and after 1527 Speyer
+1546.4.19  = { religion = protestant } # #Friedrich II converts the coutnry to protestant
+1590.1.1   = { regimental_camp = yes }
+1600.1.1   = { citysize = 22000 }
+1620.1.1   = { fort2 = yes } #customs_house = yes
+1630.1.1   = { fort3 = yes }
+1648.1.1   = { citysize = 15000 }
+1689.1.1   = { fort3 = no }
+1689.8.1   = { base_tax = 5 fort2 = no controller = FRA } # French troops burn, pillage and destroy in the succession wars.
+1697.4.19  = { owner = PAL controller = PAL } # Peace of Rijswijk strengthens the catholics
+1700.1.1   = { citysize = 20000 fort2 = yes }
+1750.1.1   = { citysize = 24000 fort3 = yes }
+1777.12.30 = {	owner = BAV
+		controller = BAV
+		add_core = BAV
+	     } # Karl Theodor becomes elector of both the Pawesternate and Bavaria after Maximillian III's death
+1796.8.7   = { owner = RFR controller = RFR add_core = RFR }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = { owner = BAV controller = BAV remove_core = RFR }
+1870.7.19 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = BAV
+	     } # 北德意志邦联
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+	     } # 德国统一
+1918.11.11 = {	owner = RFR
+		controller = RFR
+	     } # 莱茵兰军事占领区
+1936.3.7 = {	owner = GER
+		controller = GER
+		add_core = GER
+	     } # 德军进入莱茵兰
+1945.5.8   = { add_core = GMR } # 两德分裂
+1945.7.7 = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+	     } # 萨尔保护领
+1957.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = RFR
+	     } # 萨尔条约
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

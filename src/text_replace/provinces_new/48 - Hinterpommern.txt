@@ -1,0 +1,63 @@
+#48 - Hinterpommern
+
+owner = POM
+controller = POM
+add_core = POM
+culture = pommeranian
+religion = catholic
+hre = yes
+base_tax = 3
+trade_goods = fish
+manpower = 4
+fort1 = yes
+capital = "Kolberg"
+citysize = 6000
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1   = { citysize = 10000 }
+1480.1.1   = { marketplace = yes }
+1500.1.1   = { citysize = 12000 }
+1529.1.1   = { add_core = BRA fort2 = yes }
+1534.1.1   = { religion = protestant }
+1550.1.1   = { citysize = 14500 base_tax = 4 }
+1648.10.24 = { owner = BRA controller = BRA }
+1701.1.18  = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = BRA
+	     }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+	     } # 德国统一
+1945.2.1   = {	owner = POL
+		controller = GER
+                add_core = POL
+	     	remove_core = GER
+	     } # 二战结束
+1945.4.1   = { controller = POL }
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HQT
+		controller = HQT
+		add_core = HQT
+	    } # 超合众国
+2019.10.1 = {	owner = HBR
+		controller = HBR
+		add_core = HBR
+		remove_core = HQT
+	    } # 鲁鲁修统一世界
+2020.1.1 = {	owner = POL
+		controller = POL
+		add_core = POL
+		remove_core = EUU
+	    } # 零之镇魂曲

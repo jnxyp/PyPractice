@@ -1,0 +1,70 @@
+#62 - Leipzig
+
+owner = SAX
+controller = SAX
+add_core = SAX
+culture = saxon
+religion = catholic
+capital = "莱比锡"
+trade_goods = wool
+hre = yes
+base_tax = 5
+manpower = 2
+citysize = 7000
+fort1 = yes
+add_core = SAX
+marketplace = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1297.1.1   = { owner = BOH controller = BOH add_core = BOH }
+1305.6.21   = { owner = SAX controller = SAX add_core = SAX remove_core = BOH }
+1409.12.2 = { university = yes } # University of Leipzig
+1450.1.1  = { citysize = 8500 }
+1500.1.1  = { citysize = 10000 }
+1539.1.1  = { religion = protestant } # The reformation reaches Leipzig
+1550.1.1  = { citysize = 10500 constable = yes }
+1560.1.1  = { fort2 = yes }
+1600.1.1  = { citysize = 14000 } #customs_house = yes
+1640.1.1  = { fort3 = yes }
+1650.1.1  = { citysize = 11000 }
+1700.1.1  = { citysize = 20000 tax_assessor = yes }
+1750.1.1  = { citysize = 35000 }
+1790.8.1  = { revolt_risk = 5 } # Peasant revolt
+1791.1.1  = { revolt_risk = 0 }
+1800.1.1  = { citysize = 32000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1815.6.9 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = SAX
+	    } # Congress of Vienna
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1945.5.8   = {	owner = GMR
+		controller = GMR
+                add_core = GMR
+	     } # 两德分裂
+1989.10.3   = {	owner = GER
+		controller = GER
+                add_core = GER
+                remove_core = GMR
+	     } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

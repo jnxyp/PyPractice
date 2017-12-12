@@ -1,0 +1,66 @@
+# 1868 - Augsburg
+owner = AUG
+controller = AUG
+add_core = AUG
+culture = bavarian
+religion = catholic
+cot = no
+base_tax = 8
+trade_goods = grain
+manpower = 4
+fort1  = yes
+capital = "奥格斯堡"
+citysize = 13500
+temple = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1  = { citysize = 15000 }
+1453.1.1  = { marketplace = yes }
+1520.1.1  = { constable = yes }
+1550.1.1  = { citysize = 19000 }
+1565.1.1  = { regimental_camp = yes }
+1592.1.1  = { workshop = yes } 
+1600.1.1  = { citysize = 24000 }
+1620.1.1  = { courthouse = yes }
+1634.1.1  = { citysize = 14000 } # Plague kills large parts of the population
+1700.1.1  = { citysize = 25000} 
+1750.1.1  = { citysize = 40000 }
+1803.1.1 = {
+	add_core = BAV
+	owner = BAV
+	controller = BAV
+}
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = BAV
+	     } # 德国统一
+1919.4.6 = {	owner = BAV
+		controller = BAV
+		add_core = BAV
+		add_core = GER
+	     } # 巴伐利亚革命
+1919.5.3 = {	owner = GER
+		controller = GER
+		add_core = GER
+	     } # 革命失败
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

@@ -1,0 +1,68 @@
+#1863 - Graz
+
+owner = HRE
+controller = HRE
+add_core = HRE
+add_core = HAB
+culture = austrian
+religion = catholic
+base_tax = 6
+trade_goods = grain
+manpower = 3
+fort1 = yes
+capital = "Graz" 
+citysize = 6000
+hre = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1254.5.22   = { owner = BOH controller = BOH add_core = BOH remove_core = HRE }
+1276.11.1   = { owner = HAB controller = HAB add_core = HAB }
+1278.8.26   = { remove_core = BOH }
+1450.1.1   = { citysize = 7000 }
+1515.4.1   = { revolt_risk = 4 } # Bund - Farmer insurrections
+1515.10.1  = { revolt_risk = 0 }
+1525.5.1   = { revolt_risk = 8 } # serious Farmer insurrections 
+1526.1.1   = { revolt_risk = 0 }
+1550.1.1   = { citysize = 8000 }
+1578.1.1   = { fort2 = yes }
+1600.1.1   = { citysize = 10000 }
+1650.1.1   = { citysize = 14000 }
+1660.1.1   = { textile = yes }
+1679.1.1   = { citysize = 11000 } # great plague
+1700.1.1   = { citysize = 13000 }
+1750.1.1   = { citysize = 20000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1867.3.15 = {	owner = AHE
+		controller = AHE
+		add_core = AHE
+	    }# 奥匈帝国
+1918.11.11 = {	owner = HAB
+		controller = HAB
+		add_core = HAB
+		remove_core = AHE
+	    }# 一战结束
+1938.3.1  = {	owner = GER
+		controller = GER
+		add_core = GER
+	     } # 德奥合并
+1945.5.8  = {	owner = HAB
+		controller = HAB
+		add_core = HAB
+		remove_core = GER
+	     }
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = HAB
+		controller = HAB
+		add_core = HAB
+		remove_core = EUU
+	    } # 零之镇魂曲

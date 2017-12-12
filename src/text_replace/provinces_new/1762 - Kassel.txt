@@ -1,0 +1,64 @@
+
+owner = HES
+controller = HES
+add_core = HES
+capital = "卡塞尔"
+trade_goods = grain
+fort1 = yes
+culture = hessian
+religion = catholic
+base_tax = 3
+manpower = 2
+citysize = 5500
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1   = { citysize = 6500 }
+1500.1.1   = { fort2 = yes citysize = 7000 }
+1527.1.1   = { marketplace = yes } # # Philipp der Grossm黷ige
+1536.1.1   = { religion = protestant }
+1547.1.1   = { fort2 = no } # Kassel's fortifications destroyed by catholics
+1550.1.1   = { citysize = 9000 }
+1620.1.1   = { regimental_camp = yes constable = yes fort2 = yes }
+1685.1.1   = { citysize = 14000 manpower = 2} #customs_house = yes Reformed refugees find shelter in Kassel (-> Oberneustadt founded)
+1730.3.23  = { owner = SWE controller = SWE courthouse = yes } # Friedrich I is nominally King in Sweden, even thogh he has little power there.
+1751.4.5   = { owner = HES controller = HES citysize = 16000}
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1807.7.9   = {	owner = WES
+		controller = WES
+		add_core = WES
+		fort3 = yes
+	     } # The Second Treaty of Tilsit, the kingdom of Westfalia
+1813.9.1   = { controller = RUS } # Occupied by Russian troops
+1813.10.14 = {	owner = HES
+		controller = HES
+		remove_core = WES
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1866.8.23 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = HES
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

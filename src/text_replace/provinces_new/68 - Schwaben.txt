@@ -1,0 +1,63 @@
+#68 - Schwaben
+
+owner = HRE
+controller = HRE
+add_core = HRE
+add_core = BAV
+culture = bavarian
+religion = catholic
+hre = yes
+cot = no
+base_tax = 6
+trade_goods = cloth
+manpower = 3
+fort1 = yes
+capital = "施瓦本" 
+citysize = 21000
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1254.5.22   = { owner = BAV controller = BAV add_core = BAV remove_core = HRE }
+1450.1.1  = { citysize = 23000 }
+1550.1.1  = { courthouse = yes marketplace = yes } 
+1600.1.1  = { citysize = 47000 }
+1635.1.1  = { constable = yes }
+1645.1.1  = { regimental_camp = yes }
+1650.1.1  = { citysize = 50000 }
+1700.1.1  = { citysize = 24000 }
+1704.8.13 = { owner = HAB controller = HAB add_core = HAB } # Bavaria is conquered by the Emperor, is however later restored for the balance of power
+1714.9.7  = { owner = BAV controller = BAV remove_core = HAB }
+1800.1.1  = { citysize = 26500 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = BAV
+                railway = yes
+	     } # 德国统一
+1919.4.6 = {	owner = BAV
+		controller = BAV
+		add_core = BAV
+		add_core = GER
+	     } # 巴伐利亚革命
+1919.5.3 = {	owner = GER
+		controller = GER
+		add_core = GER
+	     } # 革命失败
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

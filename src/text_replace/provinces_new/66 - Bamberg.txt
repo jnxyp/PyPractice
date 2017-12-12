@@ -1,0 +1,70 @@
+# 66 - Bamberg
+owner = WBG
+controller = WBG
+add_core = WBG
+culture = bavarian
+religion = catholic
+base_tax = 3
+trade_goods = wine
+manpower = 2
+fort1 = yes
+capital = "Bamberg"
+citysize = 5500
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1  = { citysize = 7000 }
+#1525.1.1  = { customs_house = yes }
+1540.1.1  = { marketplace = yes }
+1550.1.1  = { citysize = 12000 }
+1580.1.1  = { constable = yes }
+1590.1.1  = { temple = yes }
+1600.1.1  = { citysize = 14000 }
+1620.1.1  = { constable = yes }
+1647.1.1  = { university = yes } # (existed until 1803)
+1650.1.1  = { citysize = 8000 }
+1700.1.1  = { citysize = 12000 }
+1720.1.1  = { courthouse = yes }
+1750.1.1  = { citysize = 14000 }
+1800.1.1  = { citysize = 15000 }
+1803.1.1  = {	owner = BAV
+		controller = BAV
+		add_core = BAV
+		remove_core = WBG
+	    } # Annexed by Bavaria
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1870.7.19 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = BAV
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1945.5.8   = {	owner = GMR
+		controller = GMR
+                add_core = GMR
+	     } # 两德分裂
+1989.10.3   = {	owner = GER
+		controller = GER
+                add_core = GER
+                remove_core = GMR
+	     } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

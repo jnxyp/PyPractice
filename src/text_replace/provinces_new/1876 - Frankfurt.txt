@@ -1,0 +1,60 @@
+# 1876 - Frankfurt
+owner = FRN
+controller = FRN
+add_core = FRN
+capital = "法兰克福"
+culture = rheinlaender
+religion = catholic
+trade_goods = grain
+base_tax = 8
+manpower = 4
+fort1 = yes
+citysize = 8000
+add_core = FRN
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1   = { citysize = 9000 }
+1453.1.1   = { marketplace = yes }
+1495.1.1   = { courthouse = yes }
+1500.1.1   = { constable = yes }
+1556.4.19  = { religion = protestant }
+1580.4.19  = { regimental_camp = yes fort2 = yes }
+1600.1.1   = { citysize = 22000 }
+1610.1.1   = { fort3 = yes } #customs_house = yes
+1648.1.1   = { citysize = 16000 }
+1700.1.1   = { citysize = 28000 }
+1720.1.1   = { citysize = 30000 fine_arts_academy = yes }
+1750.1.1   = { citysize = 35000 fort3 = yes }
+1792.10.1  = { controller = FRA } # Occupied by French troops
+1792.12.3  = { controller = FRN } # Prussian troops take control
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1870.7.19 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = FRN
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+                railway = yes
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

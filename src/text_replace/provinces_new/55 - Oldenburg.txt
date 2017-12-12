@@ -1,0 +1,77 @@
+#55 - Oldenburg
+
+owner = OLD
+controller = OLD
+add_core = OLD
+culture = hannoverian
+religion = catholic
+capital = "奥尔登堡"
+trade_goods = salt
+hre = yes
+base_tax = 3
+manpower = 2
+citysize = 2000
+fort1 = yes
+add_core = OLD
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1448.9.1  = { owner = DAN controller = DAN add_core = DAN }
+1450.1.1  = { citysize = 2400 }
+1454.1.1  = { owner = OLD controller = OLD remove_core = DAN }
+1500.1.1  = { citysize = 2300 }
+1531.1.1  = { religion = protestant }
+1550.1.1  = { citysize = 3200 }
+1600.1.1  = { citysize = 3900 }
+1607.1.1  = { fort2 = yes }
+1650.1.1  = { citysize = 4300 }
+1667.1.1  = {	owner = DAN
+		controller = DAN
+		add_core = DAN
+		citysize = 4100	
+	    } # United in a Dynastic union with Denmark after Count Anton Guenther's death. Plague
+1680.1.1  = { marketplace = yes }
+1682.1.1  = { fort2 = yes }
+1700.1.1  = { citysize = 5000 }
+1750.1.1  = { citysize = 6100 }
+1773.1.1  = {	owner = OLD
+		controller = OLD
+		remove_core = DAN
+	    } # Oldenburg is sold to the house of Holstein-Gottorp
+1800.1.1  = { citysize = 6900 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1810.1.1  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+	    } # Controlled by France
+1813.1.1  = {	owner = SHL
+		controller = SHL
+		remove_core = RFR
+	    } # Control is returned
+1866.8.23 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = SHL
+	    } # Treaty of Paris
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

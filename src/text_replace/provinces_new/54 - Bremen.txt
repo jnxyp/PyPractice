@@ -1,0 +1,86 @@
+#54 - Stade
+
+owner = BRE
+controller = BRE
+add_core = BRE
+culture = hannoverian
+religion = catholic
+capital = "斯塔德"
+trade_goods = fish
+hre = yes
+base_tax = 8
+manpower = 4
+citysize = 8000
+fort1 = yes
+add_core = BRE
+temple = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1   = { citysize = 9000 }
+1500.1.1   = { citysize = 10000 }
+1510.1.1   = { fort2 = yes }
+1529.1.1   = { religion = protestant }
+1540.1.1   = { marketplace = yes }
+1550.1.1   = { citysize = 11000 constable = yes }
+1600.1.1   = { citysize = 12000 regimental_camp = yes }
+1620.1.1   = { fort3 = yes }
+1648.1.1   = { capital = "Stade" } 
+1650.1.1   = { citysize = 13500 fort4 = yes }
+1700.1.1   = { citysize = 15000 tax_assessor = yes }
+1719.9.30  = {	owner = HAN
+		controller = HAN
+		add_core = HAN
+		remove_core = SWE
+	     } # The Treaty of Stockholm
+1750.1.1   = { citysize = 18000 }
+1800.1.1   = { citysize = 20000 }
+1803.7.5   = { controller = RFR } # French control
+1805.12.15 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = HAN
+	     } # Treaty of Schoenbrunn, ceded to Prussia
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1807.7.9   = {	owner = WES
+		controller = WES
+		add_core = WES
+		remove_core = PRU
+	     } # The Second Treaty of Tilsit, the kingdom of Westfalia
+1810.12.13 = {	owner = RFR
+		controller = RFR
+	     	add_core = RFR
+	     	remove_core = WES
+	     } # Annexed by France
+1814.4.11  = {	owner = HAN
+		controller = HAN
+		add_core = HAN
+		remove_core = RFR
+	    } # Napoleon abdicated unconditionally
+1866.8.23 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = HAN
+	    } # 北德意志邦联
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+	     } # 德国统一
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

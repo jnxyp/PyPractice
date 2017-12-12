@@ -1,0 +1,62 @@
+# 67 - Franken
+
+owner = PAL
+controller = PAL
+add_core = PAL
+culture = bavarian
+religion = catholic
+base_tax = 12
+trade_goods = wine
+manpower = 3
+fort1 = yes
+capital = "N黵nberg"
+citysize = 34000
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+marketplace = yes
+courthouse = yes 	# Nurnberg is one of the central towns of the HRE
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1  = { citysize = 37000 }
+1520.1.1  = { constable = yes temple = yes }
+1533.1.1  = { religion = protestant } # Brandenburg-N黵nbergische Kirchenordnung
+1550.1.1  = { citysize = 42000 }
+#1580.1.1  = { customs_house = yes }
+1599.1.1  = { regimental_camp = yes citysize = 50000 }
+1618.5.6  = { owner = BAV controller = BAV add_core = BAV } # Battle of Prague
+1650.1.1  = { citysize = 30000 }
+1700.1.1  = { citysize = 41000 }
+1742.1.1  = { university = yes }
+1750.1.1  = { citysize = 32000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = BAV
+	     } # 德国统一
+1919.4.6 = {	owner = BAV
+		controller = BAV
+		add_core = BAV
+		add_core = GER
+	     } # 巴伐利亚革命
+1919.5.3 = {	owner = GER
+		controller = GER
+		add_core = GER
+	     } # 革命失败
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

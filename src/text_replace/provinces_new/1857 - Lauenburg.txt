@@ -1,0 +1,68 @@
+#1857 - Lauenburg
+
+owner = LAU
+controller = LAU
+add_core = LAU
+culture = hannoverian
+religion = catholic
+capital = "劳恩堡"
+trade_goods = salt
+hre = yes
+base_tax = 3
+manpower = 2
+citysize = 6000
+fort1 = yes
+marketplace = yes 
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1   = { citysize = 10000 }
+1450.1.1   = { citysize = 10000 }
+1500.1.1   = { citysize = 12000 }
+1529.1.1   = { religion = protestant }
+1550.1.1   = { citysize = 14500 base_tax = 4 }
+1650.1.1   = { fort2 = yes }
+1689.1.1   = {	owner = BRU
+		controller = BRU
+		add_core = BRU
+		remove_core = LAU
+	     }
+1700.1.1   = { courthouse = yes }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1807.7.9   = {	owner = WES
+		controller = WES
+		add_core = WES
+	     } # The Second Treaty of Tilsit, the kingdom of Westfalia
+1813.10.14 = {	owner = HAN
+		controller = HAN
+		add_core = HAN
+		remove_core = BRU
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1866.8.23 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = HAN
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+                railway = yes
+	     } # Westfalia is dissolved after the Battle of Leipsig
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情

@@ -1,0 +1,70 @@
+
+owner = KLE
+controller = KLE
+add_core = KLE
+culture = rheinlaender
+religion = catholic
+trade_goods = cloth
+capital = "D黶seldorf"
+base_tax = 4
+manpower = 1
+citysize = 5000
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+hre = yes
+
+1111.1.1 = { add_core = HRE controller = HRE owner = HRE }
+1450.1.1   = { citysize = 6000 }
+1500.1.1   = { marketplace = yes }
+1550.1.1   = { constable = yes }
+1610.1.1   = { owner = PAL controller = PAL add_core = PAL remove_core = KLE fort2 = yes citysize = 8000 } # Berg is inherited by Pfalsz-Neuenburg
+1700.1.1   = { regimental_camp = yes citysize = 10000 }
+1777.12.30 = { owner = BAV controller = BAV add_core = BAV remove_core = PAL courthouse = yes } # The Palatian Wittelsbachs inherit Bavaria and govern their lands from Munich.
+1795.1.1   = { controller = RFR } # Occupied by French troops
+1797.10.17 = { owner = RFR add_core = RFR remove_core = BAV } # Treaty of Campo Formio
+1806.7.12  = {	owner = KLE
+		controller = KLE
+		remove_core = RFR
+		hre = no
+	     } # The Holy Roman Empire is dissolved. Grand Duchy of Berg
+1808.8.1   = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+	     } # Murat moves to Naples
+1809.1.1   = {	owner = KLE
+		controller = KLE
+		remove_core = RFR
+	     } # Grand Duchy of Berg ruled by Napoleon Louis
+1814.4.11  = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+	     } # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1871.1.18 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = PRU
+	     } # 德国统一
+1918.11.11 = {	owner = RFR
+		controller = RFR
+	     } # 莱茵兰军事占领区
+1936.3.7 = {	owner = GER
+		controller = GER
+		add_core = GER
+	     } # 德军进入莱茵兰
+1945.5.8   = { add_core = GMR } # 两德分裂
+1989.10.3   = {	remove_core = GMR } # 两德统一
+2017.1.1 = {	owner = EUU
+		controller = EUU
+		add_core = EUU
+	    } # 新的剧情
+2018.1.1 = {	owner = HBR
+		controller = HBR
+	    } # 布列塔尼亚帝国吞并EU
+2020.1.1 = {	owner = GER
+		controller = GER
+		add_core = GER
+		remove_core = EUU
+	    } # 新的剧情
